@@ -1,6 +1,6 @@
 (()=>{'use strict';
 const $=s=>document.querySelector(s),root=document.documentElement,esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const base=document.querySelector('link[href*="site.css"]')?.getAttribute('href').replace(/assets\/css\/site\.css.*$/,'')||'./';
+const base=new URL('./',document.baseURI).href;
 const asset=path=>{if(!path)return '';if(/^(https?:|data:|blob:|\/\/)/i.test(path))return path;return base+path.replace(/^\//,'')};
 const categories=['Todos','Sistemas','Algoritmos','Tipografía','Simulación','Collage','Patrones','Procesos','Interfaces'];let data={proyectos:[],archivo:[],content:{}},filter='Todos',current=null,sequence=[],seqIndex=0,mediaIndex=0,tab='concept',lastFocus=null;
 function nyc(){const now=new Date();$('#nyc-clock').textContent='NYC · '+new Intl.DateTimeFormat('en-GB',{timeZone:'America/New_York',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}).format(now)}nyc();setInterval(nyc,1000);$('#copyright-year').textContent=new Date().getFullYear();
