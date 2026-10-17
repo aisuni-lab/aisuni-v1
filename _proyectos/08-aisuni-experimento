@@ -6,7 +6,7 @@ category: "Algoritmos"
 categoryTag: "Algoritmos & Simulación"
 year: "2026"
 client: "AISUNI Lab"
-image: "assets/images/formas.svg"
+image: "assets/images/mascaras.svg"
 
 gallery:
   - "assets/images/mascaras.svg"
@@ -21,6 +21,7 @@ media:
 
   - type: youtube
     src: "https://youtu.be/gD2ItWih9VM?si=D7WjkiwZYQxJb-Ew"
+    poster: "https://img.youtube.com/vi/gD2ItWih9VM/hqdefault.jpg"
 
 tools: "TouchDesigner, Python, ComfyUI"
 status: "Investigación activa"
