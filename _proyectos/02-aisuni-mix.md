@@ -11,7 +11,7 @@ gallery:
   - "assets/images/mix.svg"
 tools: "JavaScript, Canvas"
 status: "Investigación activa"
-featured: true
+featured: false
 ---
 ## Concepto
 
