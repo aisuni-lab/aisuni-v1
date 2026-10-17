@@ -1,6 +1,6 @@
 ---
 id: "topologias-del-ruido"
-num: "A01"
+num: "01"
 title: "Topologías del ruido"
 category: "Patrones"
 categoryTag: "Patrones"

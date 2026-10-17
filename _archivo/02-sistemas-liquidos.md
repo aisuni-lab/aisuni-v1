@@ -1,6 +1,6 @@
 ---
 id: "sistemas-liquidos"
-num: "A02"
+num: "02"
 title: "Sistemas líquidos"
 category: "Procesos"
 categoryTag: "Procesos"

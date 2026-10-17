@@ -1,6 +1,6 @@
 ---
 id: "archivo-de-formas"
-num: "A03"
+num: "03"
 title: "Archivo de formas"
 category: "Interfaces"
 categoryTag: "Interfaces"
