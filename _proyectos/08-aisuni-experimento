@@ -1,0 +1,42 @@
+
+---
+id: "aisuni-experimento-08"
+num: "08"
+title: "Experimento Generativo 07"
+category: "Algoritmos"
+categoryTag: "Algoritmos & Simulación"
+year: "2026"
+client: "AISUNI Lab"
+image: "assets/mascaras.svg"
+
+gallery:
+  - "assets/mascaras.svg"
+
+media:
+  - type: image
+    src: "assets/mascaras.svg"
+
+  - type: mp4
+    src: "assets/AnimateDiff_00002.mp4"
+    poster: "assets/mascaras.svg"
+
+  - type: youtube
+    src: "https://youtu.be/gD2ItWih9VM?si=D7WjkiwZYQxJb-Ew"
+
+tools: "TouchDesigner, Python, ComfyUI"
+status: "Investigación activa"
+---
+
+## Concepto
+
+Descripción conceptual del proyecto.
+
+Aquí puedes escribir varios párrafos explicando
+las ideas, objetivos e investigación de la obra.
+
+## Proceso
+
+Descripción del proceso de trabajo.
+
+Aquí puedes explicar la metodología, los algoritmos,
+las herramientas y los experimentos realizados.
