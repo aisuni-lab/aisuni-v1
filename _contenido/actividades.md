@@ -7,6 +7,6 @@ entries:
     location: "Ciudad / País"
     # url: "https://ejemplo.com"
   - year: "2025"
-    name: "Otra actividad"
+    name: "USFQ-Cocoa"
     location: "Publicación / Institución"
 ---
