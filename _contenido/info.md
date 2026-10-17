@@ -1,12 +1,12 @@
 ---
 id: info
-title: "Laboratorio de investigación visual"
+title: "Laboratorio de investigación"
 tags:
   - Arte y algoritmos
   - Sistemas generativos
   - Experimentación
   - Inteligencias visuales
-image: "assets/images/aisuni-systems.svg"
+image: "assets/images/mascaras.svg"
 ---
 AISUNI es un espacio de investigación y experimentación visual. Explora el encuentro entre creación artística, sistemas generativos, código, materialidad y nuevas herramientas de producción de imágenes.
 
