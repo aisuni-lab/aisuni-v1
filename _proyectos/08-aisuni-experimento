@@ -6,18 +6,18 @@ category: "Algoritmos"
 categoryTag: "Algoritmos & Simulación"
 year: "2026"
 client: "AISUNI Lab"
-image: "assets/mascaras.svg"
+image: "assets/formas.svg"
 
 gallery:
-  - "assets/mascaras.svg"
+  - "assets/formas.svg"
 
 media:
   - type: image
-    src: "assets/mascaras.svg"
+    src: "assets/formas.svg"
 
   - type: mp4
     src: "assets/AnimateDiff_00002.mp4"
-    poster: "assets/mascaras.svg"
+    poster: "assets/formas.svg"
 
   - type: youtube
     src: "https://youtu.be/gD2ItWih9VM?si=D7WjkiwZYQxJb-Ew"
