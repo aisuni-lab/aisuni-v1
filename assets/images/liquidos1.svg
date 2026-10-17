@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1200 700">
+  <!-- Generator: Adobe Illustrator 30.8.2, SVG Export Plug-In . SVG Version: 2.1.4 Build 7)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke-width: 17px;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17, .st18, .st19, .st20, .st21, .st22, .st23, .st24, .st25, .st26, .st27 {
+        fill: none;
+        isolation: isolate;
+        opacity: .8;
+      }
+
+      .st0, .st2, .st8, .st14, .st19, .st20, .st27 {
+        stroke: #f50;
+      }
+
+      .st0, .st12, .st26 {
+        stroke-miterlimit: 4;
+      }
+
+      .st1 {
+        stroke-width: 19px;
+      }
+
+      .st1, .st5, .st10, .st11, .st17, .st23, .st26 {
+        stroke: #d3d7d4;
+      }
+
+      .st1, .st16 {
+        stroke-miterlimit: 4;
+      }
+
+      .st2 {
+        stroke-width: 4px;
+      }
+
+      .st2, .st23 {
+        stroke-miterlimit: 4;
+      }
+
+      .st3 {
+        stroke-width: 12px;
+      }
+
+      .st3, .st9, .st12, .st15, .st16, .st21, .st22 {
+        stroke: #a5aba8;
+      }
+
+      .st3, .st20 {
+        stroke-miterlimit: 4;
+      }
+
+      .st4 {
+        stroke-miterlimit: 4;
+        stroke-width: 3px;
+      }
+
+      .st4, .st6, .st7, .st13, .st18, .st24, .st25 {
+        stroke: #444848;
+      }
+
+      .st5 {
+        stroke-width: 19px;
+      }
+
+      .st5, .st11 {
+        stroke-miterlimit: 4;
+      }
+
+      .st6 {
+        stroke-miterlimit: 4;
+        stroke-width: 4px;
+      }
+
+      .st7 {
+        stroke-miterlimit: 4;
+        stroke-width: 7px;
+      }
+
+      .st8 {
+        stroke-miterlimit: 4;
+        stroke-width: 3px;
+      }
+
+      .st9 {
+        stroke-miterlimit: 4;
+        stroke-width: 11px;
+      }
+
+      .st10 {
+        stroke-miterlimit: 4;
+        stroke-width: 6px;
+      }
+
+      .st11 {
+        stroke-width: 4px;
+      }
+
+      .st12 {
+        stroke-width: 18px;
+      }
+
+      .st13 {
+        stroke-width: 8px;
+      }
+
+      .st13, .st24 {
+        stroke-miterlimit: 4;
+      }
+
+      .st14 {
+        stroke-miterlimit: 4;
+        stroke-width: 15px;
+      }
+
+      .st15 {
+        stroke-miterlimit: 4;
+        stroke-width: 10px;
+      }
+
+      .st16 {
+        stroke-width: 4px;
+      }
+
+      .st17 {
+        stroke-miterlimit: 4;
+        stroke-width: 20px;
+      }
+
+      .st18 {
+        stroke-miterlimit: 4;
+        stroke-width: 4px;
+      }
+
+      .st19 {
+        stroke-miterlimit: 4;
+        stroke-width: 14px;
+      }
+
+      .st20 {
+        stroke-width: 6px;
+      }
+
+      .st21 {
+        stroke-miterlimit: 4;
+        stroke-width: 6px;
+      }
+
+      .st22 {
+        stroke-miterlimit: 4;
+        stroke-width: 19px;
+      }
+
+      .st23 {
+        stroke-width: 17px;
+      }
+
+      .st24 {
+        stroke-width: 12px;
+      }
+
+      .st25 {
+        stroke-miterlimit: 4;
+        stroke-width: 20px;
+      }
+
+      .st26 {
+        stroke-width: 14px;
+      }
+
+      .st28 {
+        fill: #671fff;
+      }
+
+      .st27 {
+        stroke-miterlimit: 4;
+        stroke-width: 13px;
+      }
+    </style>
+  </defs>
+  <rect class="st28" y="0" width="1200" height="700"/>
+  <ellipse class="st27" cx="881" cy="349" rx="68" ry="126" transform="translate(-66.33 371.98) rotate(-23)"/>
+  <ellipse class="st1" cx="106" cy="315" rx="68" ry="125" transform="translate(-225.77 295.28) rotate(-68)"/>
+  <ellipse class="st24" cx="871" cy="220" rx="84" ry="156" transform="translate(76.51 639.32) rotate(-42)"/>
+  <ellipse class="st22" cx="100" cy="368" rx="95" ry="51" transform="translate(-201.33 134.28) rotate(-37)"/>
+  <ellipse class="st20" cx="671.19" cy="408.08" rx="220" ry="119" transform="translate(-101.66 267.64) rotate(-21)"/>
+  <ellipse class="st17" cx="1116" cy="609" rx="106" ry="57" transform="translate(-140.99 418.42) rotate(-20)"/>
+  <ellipse class="st13" cx="362" cy="-47" rx="54" ry="100" transform="translate(154.7 253.47) rotate(-48)"/>
+  <ellipse class="st9" cx="598" cy="353" rx="66" ry="36" transform="translate(-93.16 285.8) rotate(-25)"/>
+  <ellipse class="st8" cx="566" cy="286" rx="63" ry="117" transform="translate(-53.85 419.93) rotate(-39)"/>
+  <ellipse class="st11" cx="2" cy="338" rx="187" ry="101" transform="translate(-98.73 15.35) rotate(-17)"/>
+  <ellipse class="st7" cx="393" cy="88" rx="108" ry="58" transform="translate(187.86 434.57) rotate(-72)"/>
+  <ellipse class="st21" cx="428" cy="502" rx="85" ry="158" transform="translate(-228.71 564.66) rotate(-55)"/>
+  <ellipse class="st19" cx="265" cy="564" rx="71" ry="38" transform="translate(-111.47 67.42) rotate(-12)"/>
+  <ellipse class="st23" cx="736" cy="14" rx="160" ry="86" transform="translate(24.65 203.41) rotate(-16)"/>
+  <ellipse class="st25" cx="1013" cy="-24" rx="103" ry="190" transform="translate(313.67 709.27) rotate(-45)"/>
+  <ellipse class="st16" cx="995" cy="508" rx="109" ry="59" transform="translate(151.2571 1240.2478) rotate(-68)"/>
+  <ellipse class="st2" cx="366" cy="182" rx="136" ry="73" transform="translate(-35.99 107.93) rotate(-16)"/>
+  <ellipse class="st26" cx="400" cy="564" rx="78" ry="144" transform="translate(-288.08 495.87) rotate(-49)"/>
+  <ellipse class="st6" cx="788" cy="-13" rx="54" ry="100" transform="translate(405.26 675.93) rotate(-60)"/>
+  <ellipse class="st15" cx="577" cy="274" rx="186" ry="100" transform="translate(-13.55 30.57) rotate(-3)"/>
+  <ellipse class="st14" cx="224.69" cy="166.7" rx="117" ry="216" transform="translate(-6.08 324.87) rotate(-71)"/>
+  <ellipse class="st10" cx="178" cy="-10" rx="90" ry="166" transform="translate(34.16 95.33) rotate(-33)"/>
+  <ellipse class="st18" cx="400" cy="559" rx="201" ry="109" transform="translate(-131.05 122.58) rotate(-15)"/>
+  <ellipse class="st12" cx="876" cy="102" rx="210" ry="113" transform="translate(147.96 599.73) rotate(-41)"/>
+  <ellipse class="st0" cx="270" cy="578" rx="171" ry="92" transform="translate(-312.97 318.91) rotate(-41)"/>
+  <ellipse class="st5" cx="942" cy="116" rx="106" ry="57" transform="translate(555.65 982.92) rotate(-73)"/>
+  <ellipse class="st4" cx="578" cy="519" rx="117" ry="216" transform="translate(-114.63 167.28) rotate(-15)"/>
+  <ellipse class="st3" cx="944" cy="3" rx="106" ry="196" transform="translate(61.62 338.5) rotate(-21)"/>
+</svg>
