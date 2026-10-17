@@ -9,7 +9,7 @@ client: "AISUNI Lab"
 image: "assets/images/formas.svg"
 
 gallery:
-  - "assets/images/formas.svg"
+  - "assets/images/mascaras.svg"
 
 media:
   - type: image
