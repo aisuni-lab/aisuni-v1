@@ -15,15 +15,44 @@ function renderContent(){const c=data.content||{};const hero=c.portada||{};$('#h
 function toast(str){const t=$('#toast');t.textContent=str;t.classList.add('show');clearTimeout(toast.timer);toast.timer=setTimeout(()=>t.classList.remove('show'),1900)}
 function gallery(item){let raw=(Array.isArray(item.media)&&item.media.length?item.media:item.gallery||[]);if(!raw.length&&item.image)raw=[item.image];return raw.map(entry=>{let m=typeof entry==='string'?{src:entry}:entry||{};let src=m.src||m.url||'';let type=(m.type||(/\.(mp4)(\?|$)/i.test(src)?'mp4':/youtube\.com|youtu\.be/.test(src)?'youtube':/vimeo\.com/.test(src)?'vimeo':'image')).toLowerCase();return {...m,src,type}}).filter(x=>x.src)}
 function videoEmbed(m){try{let u=new URL(m.src);if(m.type==='youtube'&&['youtube.com','www.youtube.com','m.youtube.com','youtu.be','www.youtube-nocookie.com'].includes(u.hostname)){let id=u.hostname.includes('youtu.be')?u.pathname.slice(1):u.searchParams.get('v')||u.pathname.split('/').filter(Boolean).pop();if(/^[\w-]{11}$/.test(id))return 'https://www.youtube-nocookie.com/embed/'+id}if(m.type==='vimeo'&&['vimeo.com','www.vimeo.com','player.vimeo.com'].includes(u.hostname)){let id=u.pathname.split('/').filter(Boolean).pop();if(/^\d+$/.test(id))return 'https://player.vimeo.com/video/'+id}}catch(e){}return null}
-function showMedia(){const m=gallery(current)[mediaIndex],main=$('#media-main');main.replaceChildren();if(!m)return;if(m.type==='image'){const el=document.createElement('img');el.src=asset(m.src);el.alt=m.alt||current.title;main.appendChild(el)}else if(m.type==='mp4'){const el=document.createElement('video');el.src=asset(m.src);el.controls=true;el.playsInline=true;el.preload='metadata';if(m.poster)el.poster=asset(m.poster);main.appendChild(el)}else{const url=videoEmbed(m);if(url){const iframe=document.createElement('iframe');iframe.src=url;iframe.title=m.alt||current.title+' video';iframe.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';iframe.allowFullscreen=true;main.appendChild(iframe)}else main.textContent='Enlace de video no válido.'}const bar=$('#media-thumbs');bar.replaceChildren();gallery(current).forEach((x,i)=>{let b=document.createElement('button');b.type='button';b.className=i===mediaIndex?'selected':'';b.setAttribute('aria-label','Mostrar recurso '+(i+1));if(x.type==='image'||x.poster){let im=document.createElement('img');im.src=asset(x.type==='image'?x.src:x.poster);im.alt='';b.appendChild(im)}else b.innerHTML='<span class="thumb-video">▶ '+esc(x.type.toUpperCase())+'</span>';b.onclick=()=>{mediaIndex=i;showMedia()};bar.appendChild(b)})}
-// Jekyll convierte Markdown a HTML antes de compilar JSON. Separar usando encabezados HTML,
-// no el texto Markdown `## Proceso`; admite niveles h1-h6, acentos y encabezados con atributos.
+function showMedia(){const m=gallery(current)[mediaIndex],main=$('#media-main');main.replaceChildren();if(!m)return;if(m.type==='image'){const el=document.createElement('img');el.src=asset(m.src);el.alt=m.alt||current.title;main.appendChild(el)}else if(m.type==='mp4'){const el=document.createElement('video');el.src=asset(m.src);el.controls=true;el.playsInline=true;el.preload='metadata';if(m.poster)el.poster=asset(m.poster);main.appendChild(el)}else{const url=videoEmbed(m);if(url){const iframe=document.createElement('iframe');iframe.src=url;iframe.title=m.alt||current.title+' video';iframe.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';iframe.allowFullscreen=true;main.appendChild(iframe)}else main.textContent='Enlace de video no válido.'}const bar=$('#media-thumbs');bar.replaceChildren();gallery(current).forEach((x,i)=>{let b=document.createElement('button');b.type='button';b.className=i===mediaIndex?'selected':'';b.setAttribute('aria-label','Mostrar recurso '+(i+1));if(x.type==='image'||x.poster){let im=document.createElement('img');im.src=asset(x.type==='image'?x.src:x.poster);im.alt='';b.appendChild(im)}else b.innerHTML='<span class="thumb-video">▶ '+esc(x.type.toUpperCase())+'</span>';b.onclick=()=>{mediaIndex=i;showMedia()};bar.appendChild(b)});const active=bar.querySelector('.selected');if(active)active.scrollIntoView({block:'nearest',inline:'nearest',behavior:'instant'})}
+// Divide las secciones a partir de encabezados HTML producidos por Jekyll.
+// Admite: ## Concepto, ## Concepto & Enfoque, ## Proceso,
+// ## Proceso & Algoritmo, encabezados con <a>/<span>, entidades y acentos.
 function splitDocumentation(item){
-  let html=String(item.concept||'');
-  let section=/<h([1-6])\b[^>]*>\s*(?:<[^>]+>\s*)*Proceso(?:\s*(?:&amp;|&|y|\+)\s*Algoritmo)?\s*(?:<\/[^>]+>\s*)*<\/h\1>/i;
-  let match=section.exec(html);
-  if(match){item.process=html.slice(match.index+match[0].length).trim();item.concept=html.slice(0,match.index).replace(/<h[1-6]\b[^>]*>\s*Concepto(?:\s*(?:&amp;|&)\s*Enfoque)?\s*<\/h[1-6]>/i,'').trim();}
-  else if(!item.process){item.process='';}
+  const original=String(item.concept||'');
+  const existing=String(item.process||'').trim();
+  if(!original.trim()){item.concept='';item.process=existing;return;}
+  const template=document.createElement('template');
+  template.innerHTML=original;
+  const root=template.content;
+  const normalize=str=>String(str||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\s+/g,' ').trim().toLowerCase();
+  const headingKind=text=>{
+    const h=normalize(text).replace(/[^a-z0-9 ]/g,' ').replace(/\s+/g,' ').trim();
+    if(/^proceso(?: (?:y )?algoritmo(?:s)?)?$/.test(h)||h.startsWith('proceso algoritmo')||h.startsWith('proceso y algoritmo'))return 'process';
+    if(/^concepto(?: (?:y )?enfoque)?$/.test(h))return 'concept';
+    return null;
+  };
+  const headings=[...root.querySelectorAll('h1,h2,h3,h4,h5,h6')].filter(h=>headingKind(h.textContent));
+  // Markdown compilado con saltos de línea escapados: por seguridad
+  // también se acepta el formato Markdown original si algún template lo entrega.
+  if(!headings.length){
+    const parts=original.split(/(?:^|\n)#{1,6}\s+Proceso(?:\s*(?:&|y|\+)\s*Algoritmos?)?\s*(?:\r?\n|$)/i);
+    if(parts.length>1){item.concept=parts.shift().replace(/(?:^|\n)#{1,6}\s+Concepto(?:\s*(?:&|y|\+)\s*Enfoque)?[^\n]*\n?/i,'').trim();item.process=parts.join('\n').trim()||existing;return;}
+    item.concept=original;item.process=existing;return;
+  }
+  const sections={concept:[],process:[]};
+  let active='concept';
+  for(const node of [...root.childNodes]){
+    if(node.nodeType===1&&/^H[1-6]$/.test(node.nodeName)){
+      const kind=headingKind(node.textContent);
+      if(kind){active=kind;continue;}
+    }
+    const holder=document.createElement('div');holder.appendChild(node.cloneNode(true));
+    sections[active].push(holder.innerHTML);
+  }
+  item.concept=sections.concept.join('').trim();
+  item.process=sections.process.join('').trim()||existing;
 }
 function showTab(){document.querySelectorAll('.detail-tabs button').forEach(b=>b.setAttribute('aria-selected',String(b.id===(tab==='concept'?'tab-concept':'tab-process'))));$('#modal-text').innerHTML=current[tab]||'<p>No hay documentación disponible todavía.</p>'}
 function populate(){let item=current;$('#modal-type').textContent=sequence===data.proyectos?'PROYECTO':'ARCHIVO ACTIVO';$('#modal-title').textContent=item.title;$('#modal-category').textContent=item.categoryTag||item.category;$('#modal-client').textContent=item.client||'—';$('#modal-year').textContent=item.year||'—';$('#modal-tools').textContent=item.tools||'—';$('#modal-status').textContent=item.status||'—';$('#modal-counter').textContent=String(seqIndex+1).padStart(2,'0')+' / '+String(sequence.length).padStart(2,'0');mediaIndex=0;tab='concept';showTab();showMedia()}
