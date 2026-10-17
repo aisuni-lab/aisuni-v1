@@ -13,3 +13,13 @@
 @media (max-width:900px){.hero-grid.has-image{grid-template-columns:1fr}.hero-figure{display:block}}
 @media (max-width:650px){.topbar .brand{font-size:17px}.hero-grid.has-image{grid-template-columns:1fr}.section-heading h2{font-size:21.6px}}
 .load-error{border-left:2px solid var(--accent);padding:15px;background:var(--sub);color:var(--fg);font:13px/1.65 'JetBrains Mono',monospace}
+
+/* AISUNI V6: miniaturas confinadas al viewport en todos los tamaños */
+.modal,.modal-panel,.modal-layout,.modal-layout>*{min-width:0;max-width:100%;}
+.modal-panel{overflow-x:hidden;overscroll-behavior:contain;}
+.media-column,.detail-column{min-width:0;max-width:100%;}
+.media-main{width:100%;min-width:0;max-width:100%;}
+.media-thumbs{display:flex;flex-wrap:nowrap;box-sizing:border-box;width:100%;max-width:100%;min-width:0;overflow-x:auto;overflow-y:hidden;overscroll-behavior-inline:contain;-webkit-overflow-scrolling:touch;scrollbar-width:thin;}
+.media-thumbs button{flex:0 0 77px;min-width:0;}
+.modal-text{overflow-wrap:anywhere;}
+@media(max-width:650px){.modal{width:100%;max-width:100vw;overflow:hidden}.modal-panel{width:100%;max-width:100vw;overflow-x:hidden}.modal-layout{display:grid;grid-template-columns:minmax(0,1fr)}.media-main{max-width:100%;height: min(55dvh,540px)}.media-thumbs{max-width:100%;touch-action:pan-x;}.media-thumbs button{flex:0 0 77px;}}
