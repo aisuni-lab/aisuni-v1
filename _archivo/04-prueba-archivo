@@ -9,13 +9,7 @@ client: "AISUNI LAB"
 image: "assets/images/formas.svg"
 gallery:
   - "assets/images/formas.svg"
-- "assets/images/formas.svg"
-- "assets/images/formas.svg"
-- "assets/images/formas.svg"
-- "assets/images/formas.svg"
-- "assets/images/formas.svg"
-- "assets/images/formas.svg"
-- "assets/images/formas.svg"
+
 tools: "Experimentación visual"
 status: "En proceso"
 ---
