@@ -97,3 +97,22 @@
  #proyectos .section-heading h2::after,
  #archivo .section-heading h2::after{animation:none;opacity:.85;box-shadow:none}
 }
+
+/* AISUNI V9 — único ajuste: indicador de actividad, naranja, parpadeo limpio */
+#proyectos .section-heading h2::after,
+#archivo .section-heading h2::after {
+  background-color: #ff5500;
+  box-shadow: none;
+  animation: aisuni-activity-blink 2s ease-in-out infinite;
+}
+@keyframes aisuni-activity-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .12; }
+}
+@media (prefers-reduced-motion: reduce) {
+  #proyectos .section-heading h2::after,
+  #archivo .section-heading h2::after {
+    animation: none;
+    opacity: 1;
+  }
+}
