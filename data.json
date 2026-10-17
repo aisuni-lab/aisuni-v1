@@ -12,7 +12,7 @@ permalink: /data.json
 },
 "content": {
   {%- for item in contents -%}
-  {{ item.id | jsonify }}: {"title": {{ item.title | default: '' | jsonify }}, "label": {{ item.label | default: '' | jsonify }}, "body": {{ item.content | markdownify | jsonify }}, "email": {{ item.email | default: '' | jsonify }}, "image": {{ item.image | default: '' | jsonify }}, "tags": {{ item.tags | jsonify }}, "links": {{ item.links | jsonify }} }{% unless forloop.last %},{% endunless %}
+  {%- assign content_key = item.path | split: '/' | last | remove: '.md' -%}{{ content_key | jsonify }}: {"title": {{ item.title | default: '' | jsonify }}, "label": {{ item.label | default: '' | jsonify }}, "body": {{ item.content | markdownify | jsonify }}, "email": {{ item.email | default: '' | jsonify }}, "image": {{ item.image | default: '' | jsonify }}, "tags": {{ item.tags | jsonify }}, "links": {{ item.links | jsonify }} }{% unless forloop.last %},{% endunless %}
   {%- endfor -%}
 },
 "proyectos": [
