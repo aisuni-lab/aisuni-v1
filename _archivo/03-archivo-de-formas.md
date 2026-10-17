@@ -8,7 +8,7 @@ year: "2026"
 client: "AISUNI LAB"
 image: "assets/images/formas.svg"
 gallery:
-  - "assets/images/formas.svg"
+  - "assets/images/liquidos1.svg"
 tools: "Experimentación visual"
 status: "En proceso"
 ---
