@@ -17,14 +17,14 @@ permalink: /data.json
 },
 "proyectos": [
   {%- for item in projects -%}
-  {%- assign sections = item.content | split: '## Proceso' -%}
-  {"id": {{ item.id | jsonify }}, "num": {{ item.num | jsonify }}, "title": {{ item.title | jsonify }}, "category": {{ item.category | jsonify }}, "categoryTag": {{ item.categoryTag | jsonify }}, "year": {{ item.year | jsonify }}, "client": {{ item.client | jsonify }}, "image": {{ item.image | jsonify }}, "gallery": {{ item.gallery | jsonify }}, "media": {{ item.media | jsonify }}, "tools": {{ item.tools | jsonify }}, "status": {{ item.status | jsonify }}, "concept": {{ sections[0] | markdownify | jsonify }}, "process": {{ sections[1] | default: '' | markdownify | jsonify }} }{% unless forloop.last %},{% endunless %}
+  {%- assign rendered_body = item.content -%}
+  {"id": {{ item.id | jsonify }}, "num": {{ item.num | jsonify }}, "title": {{ item.title | jsonify }}, "category": {{ item.category | jsonify }}, "categoryTag": {{ item.categoryTag | jsonify }}, "year": {{ item.year | jsonify }}, "client": {{ item.client | jsonify }}, "image": {{ item.image | jsonify }}, "gallery": {{ item.gallery | jsonify }}, "media": {{ item.media | jsonify }}, "tools": {{ item.tools | jsonify }}, "status": {{ item.status | jsonify }}, "concept": {{ rendered_body | jsonify }}, "process": "" }{% unless forloop.last %},{% endunless %}
   {%- endfor -%}
 ],
 "archivo": [
   {%- for item in archives -%}
-  {%- assign sections = item.content | split: '## Proceso' -%}
-  {"id": {{ item.id | jsonify }}, "num": {{ item.num | jsonify }}, "title": {{ item.title | jsonify }}, "category": {{ item.category | jsonify }}, "categoryTag": {{ item.categoryTag | jsonify }}, "year": {{ item.year | jsonify }}, "client": {{ item.client | jsonify }}, "image": {{ item.image | jsonify }}, "gallery": {{ item.gallery | jsonify }}, "media": {{ item.media | jsonify }}, "tools": {{ item.tools | jsonify }}, "status": {{ item.status | jsonify }}, "concept": {{ sections[0] | markdownify | jsonify }}, "process": {{ sections[1] | default: '' | markdownify | jsonify }} }{% unless forloop.last %},{% endunless %}
+  {%- assign rendered_body = item.content -%}
+  {"id": {{ item.id | jsonify }}, "num": {{ item.num | jsonify }}, "title": {{ item.title | jsonify }}, "category": {{ item.category | jsonify }}, "categoryTag": {{ item.categoryTag | jsonify }}, "year": {{ item.year | jsonify }}, "client": {{ item.client | jsonify }}, "image": {{ item.image | jsonify }}, "gallery": {{ item.gallery | jsonify }}, "media": {{ item.media | jsonify }}, "tools": {{ item.tools | jsonify }}, "status": {{ item.status | jsonify }}, "concept": {{ rendered_body | jsonify }}, "process": "" }{% unless forloop.last %},{% endunless %}
   {%- endfor -%}
 ]
 }

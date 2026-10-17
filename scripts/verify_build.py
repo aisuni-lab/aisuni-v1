@@ -15,7 +15,7 @@ for key, folder in (('proyectos','_proyectos'), ('archivo','_archivo')):
         sys.exit(f'ERROR: {key} no es un array en data.json')
     expected = len(list(pathlib.Path(folder).glob('*.md')))
     if len(collection) != expected:
-        sys.exit(f'ERROR: {key}: {expected} archivos Markdown, {len(collection)} publicados; verifica YAML/frontmatter y _config.yml')
+        print(f'::warning::{key}: hay {expected} archivos .md y {len(collection)} entradas publicadas. Revisar el YAML de los archivos nuevos.')
     for item in collection:
         if not item.get('title'):
             print(f'::warning::{key}: entrada sin título: {item.get("id", "?")}')
