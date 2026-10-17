@@ -37,3 +37,63 @@
 .info-entry-year{color:var(--accent);font:12px/1.6 'JetBrains Mono',monospace}
 @media(max-width:900px){.info-lists{grid-template-columns:1fr;gap:42px}.info-list-column:nth-child(2) .info-list-entry{grid-template-columns:58px minmax(0,1fr) minmax(90px,.4fr)}}
 @media(max-width:650px){.info-lists{margin-top:42px;gap:40px}.info-list-heading{font-size:10px}.info-list-entry{grid-template-columns:minmax(0,1fr) minmax(88px,.43fr);gap:10px;padding:13px 0}.info-list-column:nth-child(2) .info-list-entry{grid-template-columns:44px minmax(0,1fr);gap:8px}.info-list-column:nth-child(2) .info-entry-meta{grid-column:2;grid-row:2;text-align:left}.info-entry-name{font-size:14px}.info-entry-meta{font-size:10px}.info-entry-year{font-size:10px}}
+
+/* AISUNI V8 — ajustes visuales acotados; sin cambios al sistema editorial */
+/* +20% sobre las medidas vigentes de V7; desktop y mobile */
+@media (min-width:651px){
+  .topbar .brand{font-size:23.4px}
+  .topbar .brand span{font-size:31.2px}
+}
+@media (max-width:650px){
+  .topbar .brand{font-size:20.4px}
+  .topbar .brand span{font-size:24px}
+}
+/* Indicador SVG vectorial, no emoji; mismo lenguaje de UI en todas las plataformas */
+.archive-card-info > span[aria-hidden="true"]{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  flex:0 0 17px;
+  width:17px;
+  height:17px;
+  margin-left:auto;
+  font-size:0;
+  line-height:0;
+  color:var(--fg);
+}
+.archive-card-info > span[aria-hidden="true"]::after{
+  content:"";
+  display:block;
+  width:16px;
+  height:16px;
+  background-color:currentColor;
+  -webkit-mask:url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.65" stroke-linecap="square" stroke-linejoin="miter"%3E%3Cpath d="M5 19 19 5M7 5h12v12"/%3E%3C/svg%3E') center/contain no-repeat;
+  mask:url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="1.65" stroke-linecap="square" stroke-linejoin="miter"%3E%3Cpath d="M5 19 19 5M7 5h12v12"/%3E%3C/svg%3E') center/contain no-repeat;
+}
+.archive-card:hover .archive-card-info > span[aria-hidden="true"],
+.archive-card:focus-visible .archive-card-info > span[aria-hidden="true"]{color:var(--accent)}
+@media(max-width:650px){
+ .archive-card-info > span[aria-hidden="true"]{float:right;margin-left:8px}
+}
+/* Pulso discreto de actividad junto al título de sección */
+#proyectos .section-heading h2::after,
+#archivo .section-heading h2::after{
+  content:"";
+  display:inline-block;
+  width:7px;
+  height:7px;
+  margin-left:13px;
+  border-radius:50%;
+  vertical-align:middle;
+  background:var(--accent);
+  box-shadow:0 0 0 0 rgba(255,85,0,.12);
+  animation:aisuni-activity-pulse 3.6s ease-in-out infinite;
+}
+@keyframes aisuni-activity-pulse{
+  0%,100%{opacity:.38;box-shadow:0 0 0 0 rgba(255,85,0,0)}
+  48%{opacity:1;box-shadow:0 0 10px 2px rgba(255,85,0,.28)}
+}
+@media(prefers-reduced-motion:reduce){
+ #proyectos .section-heading h2::after,
+ #archivo .section-heading h2::after{animation:none;opacity:.85;box-shadow:none}
+}
