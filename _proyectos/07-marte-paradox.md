@@ -1,4 +1,4 @@
-\---
+---
 
 id: "marte-paradox"
 num: "07"
@@ -15,7 +15,7 @@ tools: "Photoshop, Python"
 status: "Investigación activa"
 featured: true
 
-\---
+---
 
 ## Concepto
 
