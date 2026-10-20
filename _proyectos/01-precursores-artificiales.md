@@ -3,7 +3,7 @@ id: "precursores-artificiales"
 num: "01"
 title: "Precursores artificiales"
 category: "Algoritmos"
-categoryTag: "IA generativa & Experimentación visual"
+categoryTag: "IA generativa & Exploración visual"
 year: "2019–2020"
 client: "Investigación independiente"
 image: "assets/proyectos/01-precursores-artificiales/02-gans-2020.jpg"
@@ -28,7 +28,7 @@ media:
     src: "assets/proyectos/01-precursores-artificiales/07-dataset-Hydra-1024x1024-130018.jpg"
   - type: mp4
     src: "assets/proyectos/01-precursores-artificiales/08-antialow-res-30secs.mp4"
-    poster: "assets/proyectos/01-precursores-artificiales/07-dataset-Hydra-1024x1024-130018.jpg"
+    poster: "assets/proyectos/01-precursores-artificiales/08-antialow-poster.jpg"
 ---
 
 ## Concepto
