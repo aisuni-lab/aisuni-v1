@@ -16,10 +16,10 @@ media:
     src: "assets/proyectos/01-precursores-artificiales/02-gans-2020.jpg"
   - type: mp4
     src: "assets/proyectos/01-precursores-artificiales/03-faces33.mp4"
-    poster: "assets/proyectos/01-precursores-artificiales/04-faces8-poster.jpg"
+    poster: "assets/proyectos/01-precursores-artificiales/03-faces33-poster.jpg"
   - type: mp4
     src: "assets/proyectos/01-precursores-artificiales/04-faces8-6lat_60f-2.mp4"
-    poster: "assets/proyectos/01-precursores-artificiales/02-gans-2020.jpg"
+    poster: "assets/proyectos/01-precursores-artificiales/04-faces8-poster.jpg"
   - type: image
     src: "assets/proyectos/01-precursores-artificiales/05-blossom-hydPaiVit256-128.jpg"
   - type: image
@@ -36,6 +36,8 @@ media:
 **Precursores artificiales** (2019–2020) marca un punto de partida en la exploración de imágenes sintéticas. Rostros imposibles, distorsiones y estilos híbridos revelan una estética del error: la inteligencia artificial aparece como fuerza generativa todavía difícil de comprender o controlar por completo.
 
 Esta investigación observa el momento en que lo no humano intenta construir una representación de lo humano. Los resultados oscilan entre el reconocimiento y la extrañeza, y convierten las imperfecciones visuales en parte del lenguaje de la obra.
+
+[Archivo Youtube](https://www.youtube.com/watch?v=1haP_LXPeiQ&t=17s)
 
 ## Proceso
 
