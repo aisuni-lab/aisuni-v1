@@ -16,7 +16,7 @@ media:
     src: "assets/proyectos/01-precursores-artificiales/02-gans-2020.jpg"
   - type: mp4
     src: "assets/proyectos/01-precursores-artificiales/03-faces33.mp4"
-    poster: "assets/proyectos/01-precursores-artificiales/02-gans-2020.jpg"
+    poster: "assets/proyectos/01-precursores-artificiales/04-faces8-poster.jpg"
   - type: mp4
     src: "assets/proyectos/01-precursores-artificiales/04-faces8-6lat_60f-2.mp4"
     poster: "assets/proyectos/01-precursores-artificiales/02-gans-2020.jpg"
