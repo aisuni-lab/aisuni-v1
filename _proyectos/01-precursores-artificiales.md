@@ -37,6 +37,8 @@ media:
 
 Esta investigación observa el momento en que lo no humano intenta construir una representación de lo humano. Los resultados oscilan entre el reconocimiento y la extrañeza, y convierten las imperfecciones visuales en parte del lenguaje de la obra.
 
+[Referencias Youtube](https://www.youtube.com/watch?v=1haP_LXPeiQ&t=17s)
+
 ## Proceso
 
 El archivo reúne exploraciones de generación y transformación de imágenes asociadas a **StyleGAN, StyleGAN2, StyleGAN3, StyleGAN-XL, Pix2Pix y DeepDream**. Los materiales se presentan como una secuencia de conjuntos de imágenes, experimentos con rostros, variaciones visuales y registros en movimiento.
