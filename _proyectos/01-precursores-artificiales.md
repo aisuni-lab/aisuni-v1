@@ -37,7 +37,7 @@ media:
 
 Esta investigación observa el momento en que lo no humano intenta construir una representación de lo humano. Los resultados oscilan entre el reconocimiento y la extrañeza, y convierten las imperfecciones visuales en parte del lenguaje de la obra.
 
-[Referencias Youtube](https://www.youtube.com/watch?v=1haP_LXPeiQ&t=17s)
+[Referencias Youtube](https://www.youtube.com/watch?v=1haP_LXPeiQ&t=17s){:target="_blank"}
 
 ## Proceso
 
