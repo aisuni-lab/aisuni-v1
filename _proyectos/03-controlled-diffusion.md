@@ -4,7 +4,7 @@ num: "03"
 title: "Controlled Diffusion"
 category: "Algoritmos"
 categoryTag: "IA generativa & Control visual"
-year: "2022–2023"
+year: "2022"
 client: "Investigación independiente"
 image: "assets/proyectos/03-controlled-diffusion/03-ignitia-adina-02.jpg"
 tools: "Stable Diffusion 1.4, 1.5, XL y Turbo; inpainting; prompt engineering"
@@ -52,4 +52,4 @@ Las piezas reúnen retratos, figuras híbridas y volúmenes orgánicos de gran d
 
 La documentación sitúa el proyecto en la exploración de **Stable Diffusion 1.4 y 1.5**, junto con el *inpainting* y el *prompt engineering* dirigido. El letrero de la galería amplía las versiones mencionadas a XL y Turbo, y describe reparaciones localizadas y ajustes de prompt para ganar estructura, limpiar la iluminación, mejorar la composición y afinar el detalle.
 
-Las imágenes muestran una diversidad de resultados —desde retratos con capas de elementos hasta formas escultóricas abstractas—, pero las fuentes no registran los prompts, parámetros ni el orden exacto de generación de cada pieza. Por eso, el proceso se describe a partir de las herramientas y objetivos documentados, sin atribuir una receta técnica específica a cada imagen. La cronología presenta una discrepancia entre el texto general, que fecha esta etapa en 2022, y el letrero de galería, que indica 2023; el rango 2022–2023 conserva ambas referencias.
+Las imágenes muestran una diversidad de resultados —desde retratos con capas de elementos hasta formas escultóricas abstractas—, pero las fuentes no registran los prompts, parámetros ni el orden exacto de generación de cada pieza. Por eso, el proceso se describe a partir de las herramientas y objetivos documentados, sin atribuir una receta técnica específica a cada imagen. El proyecto también incluye numerosas animaciones generativas, presentadas por Salyaku en Instagram: [@salyaku_ai](https://www.instagram.com/salyaku_ai/).
