@@ -53,3 +53,5 @@ Las imágenes reúnen personajes híbridos, figuras en movimiento y composicione
 La documentación de la galería describe un flujo de generación estructurada que combina guías de pose, mapas de profundidad, extracción de bordes o líneas e *inpainting* selectivo, en lugar de depender exclusivamente del prompt. El texto general identifica herramientas y métodos como **ControlNet, Depth2Img, Pose, Sketch y Edge2Img**; el letrero también menciona variantes de ControlNet, prompts regionales y modelos LoRA personalizados.
 
 Estas guías permiten dirigir aspectos como el gesto, el volumen y el encuadre, mientras los modelos LoRA ayudan a mantener la continuidad de identidad entre imágenes. Los materiales disponibles describen el enfoque de la serie, pero no vinculan cada obra con una combinación técnica específica; por eso, el proceso se presenta a nivel de proyecto sin atribuir una receta individual a cada pieza.
+
+[Mira la colección aquí](https://www.arnolabs.io/artwork/mystic-pachanga-9523)
