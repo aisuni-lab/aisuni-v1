@@ -32,13 +32,13 @@ media:
     src: "assets/proyectos/04-guided-choreographies/07-madcap-trail-ix.jpg"
     alt: "Madcap Trail IX: composición densa de figuras y volúmenes en tonos azules y cálidos"
   - type: mp4
-    src: "assets/proyectos/04-guided-choreographies/08-connoisseur-01.mp4"
+    src: "assets/proyectos/04-guided-choreographies/08-connoisseur-01-web.mp4"
     poster: "assets/proyectos/04-guided-choreographies/08-connoisseur-01-poster.jpg"
   - type: mp4
-    src: "assets/proyectos/04-guided-choreographies/09-connoisseur-06.mp4"
+    src: "assets/proyectos/04-guided-choreographies/09-connoisseur-06-web.mp4"
     poster: "assets/proyectos/04-guided-choreographies/09-connoisseur-06-poster.jpg"
   - type: mp4
-    src: "assets/proyectos/04-guided-choreographies/10-connoisseur-07.mp4"
+    src: "assets/proyectos/04-guided-choreographies/10-connoisseur-07-web.mp4"
     poster: "assets/proyectos/04-guided-choreographies/10-connoisseur-07-poster.jpg"
 ---
 
