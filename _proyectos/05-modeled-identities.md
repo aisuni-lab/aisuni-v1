@@ -49,18 +49,6 @@ media:
   - type: image
     src: "assets/proyectos/05-modeled-identities/13-astralis-20.jpg"
     alt: "Retrato de perfil con patrones y elementos orgánicos"
-  - type: image
-    src: "assets/proyectos/05-modeled-identities/14-circulo.png"
-    alt: "Composición circular de colores y formas concéntricas"
-  - type: image
-    src: "assets/proyectos/05-modeled-identities/15-circulo-variacion-01.png"
-    alt: "Variación circular de una composición de formas luminosas"
-  - type: image
-    src: "assets/proyectos/05-modeled-identities/16-circulo-variacion-02.png"
-    alt: "Forma circular abstracta con un centro oscuro y bordes cromáticos"
-  - type: image
-    src: "assets/proyectos/05-modeled-identities/17-circulo-variacion-02b.png"
-    alt: "Variación de una forma circular abstracta"
   - type: mp4
     src: "assets/proyectos/05-modeled-identities/18-animated-identities.mp4"
     poster: "assets/proyectos/05-modeled-identities/18-animated-identities-poster.jpg"
@@ -77,4 +65,6 @@ El proyecto plantea el modelo personalizado como un doble visual: una base desde
 
 El texto de la galería describe el paso de dirigir modelos genéricos a construir modelos personalizados. El flujo combina ajustes finos con **LoRA** y **DreamBooth**, modelos base **SDXL** y embeddings de **IP-Adapter**, organizados como grafos de nodos en **ComfyUI**.
 
-La documentación vincula este proceso con una estética reconocible entre resultados: halos en espiral, luz teal y marigold y texturas de grano suave. Los retratos, impresiones y animaciones breves muestran distintas variaciones de identidad dentro de ese lenguaje visual. Las fuentes no identifican los parámetros ni el modelo específico de cada pieza, por lo que no se atribuyen configuraciones individuales a las imágenes.
+La documentación vincula este proceso con una estética reconocible entre resultados: halos en espiral, luz teal y marigold y texturas de grano suave. Los retratos, impresiones y animaciones breves muestran distintas variaciones de identidad dentro de ese lenguaje visual. Los parámetros y modelos en cada pieza pueden variar según el grado de exploración y sus configuraciones.
+
+[Mira la colección aquí](https://www.arnolabs.io/artwork/flux-of-radiance-0124)
