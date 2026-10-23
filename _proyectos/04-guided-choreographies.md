@@ -6,7 +6,7 @@ category: "Algoritmos"
 categoryTag: "IA generativa & Coreografía visual"
 year: "2023"
 client: "Investigación independiente"
-image: "assets/proyectos/04-guided-choreographies/01-crypto-pachanga.jpg"
+image: "assets/proyectos/04-guided-choreographies/03-mystic-pachanga.jpg"
 tools: "ControlNet, Depth2Img, Pose / Sketch / Edge2Img, LoRA"
 status: "Archivo de investigación"
 media:
