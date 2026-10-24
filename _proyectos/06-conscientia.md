@@ -3,11 +3,11 @@ id: "conscientia"
 num: "06"
 title: "Conscientia"
 category: "Algoritmos"
-categoryTag: "Arte digital & Criptoarte"
-year: "s.f."
+categoryTag: "IA generativa & Libro de artista"
+year: "2021"
 client: ""
 image: "assets/proyectos/06-conscientia/01-conscientia.jpg"
-tools: "Tecnologías emergentes, procesos analógicos y digitales, NFT"
+tools: "Machine learning, StyleGAN2"
 status: "Archivo de investigación"
 media:
   - type: image
@@ -38,8 +38,8 @@ media:
 
 ## Concepto
 
-**Conscientia** reúne obras abstractas y abstracto-figurativas de dos artistas latinoamericanos. La exposición explora el cruce entre tecnologías emergentes y procesos analógicos y digitales, dando forma a un conjunto de imágenes donde conviven gestos orgánicos, estructuras y color.
+**Conscientia** es un libro de artista creado para reunir obras recientes realizadas con *machine learning*. El conjunto explora iteraciones de formas que aluden a organismos inexistentes, definidos por sus variaciones de color y forma. Algunas piezas surgieron de exploraciones animadas con modelos como StyleGAN2; otras reinterpretan fotografías y obras originales del artista mediante modelos entrenados con ese material.
 
 ## Proceso
 
-Las obras se desarrollan mediante la combinación de herramientas emergentes con prácticas analógicas y digitales. La incorporación de NFT abre una vía para explorar la distribución descentralizada y la venta de arte digital. La galería presenta una selección de las piezas en su publicación impresa.
+Los modelos se entrenaron con fotografías y obras originales del artista; no se utilizaron imágenes extraídas de internet. El libro, de 12 × 12 pulgadas, se imprimió en papel fotográfico y se encuadernó como ejemplar único. La edición traslada al mundo físico las formas generadas en un entorno virtual y está fechada en 2021.
