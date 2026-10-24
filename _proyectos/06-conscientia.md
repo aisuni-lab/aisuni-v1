@@ -38,7 +38,7 @@ media:
 
 ## Concepto
 
-**Conscientia** es un libro de artista creado para reunir obras recientes realizadas con *machine learning*. El conjunto explora iteraciones de formas que aluden a organismos inexistentes, definidos por sus variaciones de color y forma. Algunas piezas surgieron de exploraciones animadas con modelos como StyleGAN2; otras reinterpretan fotografías y obras originales del artista mediante modelos entrenados con ese material.
+**Conscientia** es un libro de artista de Esteban Salgado, creado para reunir obras recientes realizadas con *machine learning*. El conjunto explora iteraciones de formas que aluden a organismos inexistentes, definidos por sus variaciones de color y forma. Algunas piezas surgieron de exploraciones animadas con modelos como StyleGAN2; otras reinterpretan fotografías y obras originales del artista mediante modelos entrenados con ese material.
 
 ## Proceso
 
