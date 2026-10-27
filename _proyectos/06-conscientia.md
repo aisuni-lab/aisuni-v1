@@ -6,7 +6,7 @@ category: "Algoritmos"
 categoryTag: "IA generativa & Libro de artista"
 year: "2021"
 client: ""
-image: "assets/proyectos/06-conscientia/01-conscientia.jpg"
+image: "assets/proyectos/06-conscientia/03-conscientia.jpg"
 tools: "Machine learning, StyleGAN2"
 status: "Archivo de investigación"
 media:
