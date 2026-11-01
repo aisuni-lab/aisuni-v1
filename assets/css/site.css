@@ -123,3 +123,22 @@
 .hover-preview-caption{display:flex;flex-direction:column;justify-content:center;gap:4px;min-height:57px;padding:10px 13px 11px;border-top:1px solid var(--rule);overflow:hidden}
 .hover-preview-title{font:500 14px/1.25 Inter,Arial,sans-serif;letter-spacing:-.025em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--fg)}
 .hover-preview-tools{font:10px/1.3 'JetBrains Mono',monospace;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* AISUNI V11: identifica enlaces dentro del contenido editorial */
+.modal-text a,
+.copy a,
+.info-entry-name a,
+.hero p a {
+  color: var(--fg);
+  text-decoration-line: underline;
+  text-decoration-color: currentColor;
+  text-decoration-thickness: .08em;
+  text-underline-offset: .18em;
+  text-decoration-skip-ink: auto;
+}
+.modal-text a:hover,
+.copy a:hover,
+.info-entry-name a:hover,
+.hero p a:hover {
+  color: var(--accent);
+}
