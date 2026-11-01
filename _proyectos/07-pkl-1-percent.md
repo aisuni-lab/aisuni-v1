@@ -1,6 +1,6 @@
 ---
 id: "pkl-1-percent"
-num: "07"
+num: "06"
 title: ".PKL 1%"
 category: "Algoritmos"
 categoryTag: "IA generativa & libro de artista"
