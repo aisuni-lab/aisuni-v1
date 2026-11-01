@@ -6,7 +6,7 @@ category: "Algoritmos"
 categoryTag: "Algoritmos & procesos"
 year: "2022"
 client: "Independiente"
-image: "assets/archivo/09-theus/01-theus-katao.webp"
+image: "assets/archivo/09-theus/05-theus-once.webp"
 tools: "Diffusion generativa, Stable Diffusion"
 status: "Terminado"
 media:
