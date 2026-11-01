@@ -6,7 +6,7 @@ category: "Algoritmos"
 categoryTag: "IA generativa & Control visual"
 year: "2022"
 client: "Investigación independiente"
-image: "assets/proyectos/03-controlled-diffusion/03-ignitia-adina-02.jpg"
+image: "assets/proyectos/03-controlled-diffusion/04-mdr-vii.jpg"
 tools: "Stable Diffusion 1.4, 1.5, XL y Turbo; inpainting; prompt engineering"
 status: "Archivo de investigación"
 media:
