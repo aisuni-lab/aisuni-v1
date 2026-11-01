@@ -2,6 +2,9 @@
 const $=s=>document.querySelector(s),root=document.documentElement,esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const base=new URL('./',document.baseURI).href;
 const asset=path=>{if(!path)return '';if(/^(https?:|data:|blob:|\/\/)/i.test(path))return path;return base+path.replace(/^\//,'')};
+function openExternalLinksInNewTabs(root=document){const links=[];if(root.nodeType===1&&root.matches('a[href]'))links.push(root);links.push(...root.querySelectorAll('a[href]'));links.forEach(a=>{if(!/^https?:\/\//i.test(a.getAttribute('href')||''))return;a.target='_blank';const rel=new Set((a.getAttribute('rel')||'').split(/\s+/).filter(Boolean));rel.add('noopener');rel.add('noreferrer');a.setAttribute('rel',[...rel].join(' '))})}
+openExternalLinksInNewTabs();
+new MutationObserver(records=>{records.forEach(record=>record.addedNodes.forEach(node=>{if(node.nodeType===1)openExternalLinksInNewTabs(node)}))}).observe(document.documentElement,{childList:true,subtree:true});
 const categories=['Todos','Sistemas','Algoritmos','Tipografía','Simulación','Collage','Patrones','Procesos','Interfaces'];let data={proyectos:[],archivo:[],content:{}},filter='Todos',current=null,sequence=[],seqIndex=0,mediaIndex=0,tab='concept',lastFocus=null;
 function nyc(){const now=new Date();$('#nyc-clock').textContent='NYC · '+new Intl.DateTimeFormat('en-GB',{timeZone:'America/New_York',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}).format(now)}nyc();setInterval(nyc,1000);$('#copyright-year').textContent=new Date().getFullYear();
 $('#theme-button').onclick=()=>{let t=root.dataset.theme==='dark'?'light':'dark';root.dataset.theme=t;try{localStorage.setItem('aisuni-theme',t)}catch(e){}};
