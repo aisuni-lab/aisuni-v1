@@ -1,6 +1,6 @@
 ---
 id: "retinal-placebo"
-num: "08"
+num: "07"
 title: "Retinal Placebo"
 category: "Algoritmos"
 categoryTag: "IA generativa & Libro objeto"

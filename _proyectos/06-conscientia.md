@@ -1,6 +1,6 @@
 ---
 id: "conscientia"
-num: "06"
+num: "05"
 title: "Conscientia"
 category: "Algoritmos"
 categoryTag: "IA generativa & Libro de artista"
