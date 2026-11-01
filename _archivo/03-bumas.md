@@ -6,7 +6,7 @@ category: "Algoritmos"
 categoryTag: "Algoritmos & procesos"
 year: "2022"
 client: "Independiente"
-image: "assets/archivo/03-bumas/01-buma-thk.webp"
+image: "assets/archivo/03-bumas/05-buma-lev.webp"
 tools: "ML varias, Automatic1111, TouchDesigner"
 status: "Terminado"
 media:
