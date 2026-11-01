@@ -35,6 +35,6 @@ La serie invita a imaginar la vida interior como un espacio que cambia de direcc
 
 ## Proceso
 
-La colección reúne imágenes formato JPG que fueron generadas con modelos Stable Diffusion en el framework Automatic1111, usando la técnica de imagen a imagen con formas previamente creadas en TouchDesigner o que fueron frames de animaciones. El nivel de detalle evoca un realismo inusual evocando cristales y una asimetría/simétrica engañando al ojo en algunas generaciones .
+La colección reúne imágenes formato JPG que fueron generadas con modelos Stable Diffusion en el framework Automatic1111, usando la técnica de imagen a imagen con formas previamente creadas en TouchDesigner o que fueron frames de animaciones. El nivel de detalle evoca un realismo inusual evocando cristales y una asimetría/simétrica engañando al ojo en algunas generaciones.
 
 [Ver colección en Objkt](https://objkt.com/collections/KT1HWzBY55yyYUr5XKsKStFqM6WgqJYiSGjf)
