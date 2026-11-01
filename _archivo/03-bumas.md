@@ -1,39 +1,39 @@
 ---
 id: "bumas"
-num: "06"
+num: "03"
 title: "Bumas"
 category: "Algoritmos"
 categoryTag: "Algoritmos & procesos"
 year: "2022"
 client: "Independiente"
-image: "assets/archivo/06-bumas/01-buma-thk.webp"
+image: "assets/archivo/03-bumas/01-buma-thk.webp"
 tools: "ML varias, Automatic1111, TouchDesigner"
 status: "Terminado"
 media:
   - type: image
-    src: "assets/archivo/06-bumas/01-buma-thk.webp"
+    src: "assets/archivo/03-bumas/01-buma-thk.webp"
     alt: "Buma-thk, personaje biomórfico rodeado de formas esféricas y colores intensos"
   - type: image
-    src: "assets/archivo/06-bumas/02-buma-acc.webp"
+    src: "assets/archivo/03-bumas/02-buma-acc.webp"
     alt: "Buma-acc, rostro de un personaje entre pequeñas formas orgánicas"
   - type: image
-    src: "assets/archivo/06-bumas/03-buma-fdg.webp"
+    src: "assets/archivo/03-bumas/03-buma-fdg.webp"
     alt: "Buma-fdg, figura blanca alargada con detalles esféricos multicolor"
   - type: image
-    src: "assets/archivo/06-bumas/04-buma-rab.webp"
+    src: "assets/archivo/03-bumas/04-buma-rab.webp"
     alt: "Buma-rab, personaje de gran ojo rodeado de formas esféricas"
   - type: image
-    src: "assets/archivo/06-bumas/05-buma-lev.webp"
+    src: "assets/archivo/03-bumas/05-buma-lev.webp"
     alt: "Buma-lev, escultura fluida con esferas amarillas y cromáticas"
   - type: image
-    src: "assets/archivo/06-bumas/06-buma-yay.webp"
+    src: "assets/archivo/03-bumas/06-buma-yay.webp"
     alt: "Buma-yay, figura escultórica apoyada sobre una forma esférica"
   - type: image
-    src: "assets/archivo/06-bumas/07-buma-gol.webp"
+    src: "assets/archivo/03-bumas/07-buma-gol.webp"
     alt: "Buma-gol, personaje esférico con rasgos y adornos multicolor"
   - type: mp4
-    src: "assets/archivo/06-bumas/08-buma-world.mp4"
-    poster: "assets/archivo/06-bumas/08-buma-world-poster.webp"
+    src: "assets/archivo/03-bumas/08-buma-world.mp4"
+    poster: "assets/archivo/03-bumas/08-buma-world-poster.webp"
     loop: true
 ---
 
