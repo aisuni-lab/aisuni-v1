@@ -1,10 +1,10 @@
 ---
 id: "knotcoins-2022"
 num: "02"
-title: "KnotCoins — 2022"
+title: "KnotCoins"
 category: "Algoritmos"
 categoryTag: "Algoritmos & procesos"
-year: "2019–2021"
+year: "2022"
 client: "Independiente"
 image: "assets/archivo/02-knotcoins-2022/knotcoin-01-poster.jpg"
 media:
