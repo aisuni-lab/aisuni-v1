@@ -6,7 +6,7 @@ category: "Algoritmos"
 categoryTag: "Algoritmos & procesos"
 year: "2022"
 client: "Independiente"
-image: "assets/archivo/02-knotcoins-2022/knotcoin-01-poster.jpg"
+image: "assets/archivo/02-knotcoins-2022/knotcoin-01-featured.gif"
 media:
   - type: mp4
     src: "assets/archivo/02-knotcoins-2022/knotcoin-01.mp4"
