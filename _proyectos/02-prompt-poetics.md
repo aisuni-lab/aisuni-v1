@@ -1,6 +1,6 @@
 ---
 id: "prompt-poetics"
-num: "02"
+num: "03"
 title: "Poéticas del prompt"
 category: "Algoritmos"
 categoryTag: "IA generativa & Exploración visual"

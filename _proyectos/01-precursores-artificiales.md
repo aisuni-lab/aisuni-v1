@@ -1,6 +1,6 @@
 ---
 id: "precursores-artificiales"
-num: "01"
+num: "02"
 title: "Precursores artificiales"
 category: "Algoritmos"
 categoryTag: "IA generativa & Exploración visual"

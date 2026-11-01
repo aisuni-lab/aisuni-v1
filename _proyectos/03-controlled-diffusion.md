@@ -1,6 +1,6 @@
 ---
 id: "controlled-diffusion"
-num: "03"
+num: "04"
 title: "Controlled Diffusion"
 category: "Algoritmos"
 categoryTag: "IA generativa & Control visual"

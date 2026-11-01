@@ -1,6 +1,6 @@
 ---
 id: "guided-choreographies"
-num: "04"
+num: "05"
 title: "Guided Choreographies"
 category: "Algoritmos"
 categoryTag: "IA generativa & Coreografía visual"
