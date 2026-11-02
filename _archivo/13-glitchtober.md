@@ -6,15 +6,15 @@ category: "Algoritmos"
 categoryTag: "Algoritmos & procesos"
 year: "2023"
 client: "Glitchtober"
-image: "assets/archivo/13-glitchtober/02-chewing-brain-featured.jpg"
+image: "assets/archivo/13-glitchtober/02-chewing-brain-featured.gif"
 tools: "Modelos de difusión, ComfyUI, Photomosh"
 status: "Terminado"
 media:
   - type: mp4
-    src: "assets/archivo/13-glitchtober/01-mutant-shriek.mp4"
-    poster: "assets/archivo/13-glitchtober/01-mutant-shriek-poster.jpg"
+    src: "assets/archivo/13-glitchtober/01-chewing-brain.mp4"
+    poster: "assets/archivo/13-glitchtober/01-chewing-brain-poster.jpg"
     loop: true
-    alt: "Mutant Shriek, animación del día 01 de Glitchtober 2023"
+    alt: "Chewing Brain, animación del día 02 de Glitchtober 2023"
   - type: mp4
     src: "assets/archivo/13-glitchtober/03-blankness.mp4"
     poster: "assets/archivo/13-glitchtober/03-blankness-poster.jpg"
@@ -45,6 +45,6 @@ La serie explora la inestabilidad de la imagen digital: errores, cambios y ruptu
 
 ## Proceso
 
-Las animaciones se generaron con varios modelos de difusión en ComfyUI y luego se intervinieron con Photomosh para añadir acabados acordes con el concepto de cada pieza. La galería presenta cinco animaciones seleccionadas de los 31 días: *Mutant Shriek* (01), *Blankness* (03), *Code Symmetry* (13), *Signs of Change* (18) y *Festive Chromatics* (29).
+Las animaciones se generaron con varios modelos de difusión en ComfyUI y luego se intervinieron con Photomosh para añadir acabados acordes con el concepto de cada pieza. La galería presenta cinco animaciones seleccionadas de los 31 días: *Chewing Brain* (02), *Blankness* (03), *Code Symmetry* (13), *Signs of Change* (18) y *Festive Chromatics* (29).
 
 [Ver colección en Objkt](https://objkt.com/collections/KT1FQ4BZHWkKza7Xyukx43eSyuns7koFaJQj)
