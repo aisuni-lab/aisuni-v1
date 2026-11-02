@@ -6,14 +6,10 @@ category: "Algoritmos"
 categoryTag: "Algoritmos & procesos"
 year: "2024"
 client: "Investigación independiente"
-image: "assets/proyectos/09-reimagined-traditions/01-mask-rt-01-poster.jpg"
+image: "assets/proyectos/09-reimagined-traditions/25-mask-rt-25-poster.jpg"
 tools: "ComfyUI, modelos de difusión, img2img por capas, AnimateDiff (v1.5 / SDXL)"
 status: "Propuesta expositiva"
 media:
-  - type: mp4
-    src: "assets/proyectos/09-reimagined-traditions/01-mask-rt-01.mp4"
-    poster: "assets/proyectos/09-reimagined-traditions/01-mask-rt-01-poster.jpg"
-    alt: "Mask RT 001: máscara circular dorada con rayos radiales"
   - type: mp4
     src: "assets/proyectos/09-reimagined-traditions/05-mask-rt-05.mp4"
     poster: "assets/proyectos/09-reimagined-traditions/05-mask-rt-05-poster.jpg"
@@ -34,6 +30,10 @@ media:
     src: "assets/proyectos/09-reimagined-traditions/25-mask-rt-25.mp4"
     poster: "assets/proyectos/09-reimagined-traditions/25-mask-rt-25-poster.jpg"
     alt: "Mask RT 025: máscara orgánica dorada con apéndices oscuros y formas contrastantes"
+  - type: mp4
+    src: "assets/proyectos/09-reimagined-traditions/28-mask-rt-28.mp4"
+    poster: "assets/proyectos/09-reimagined-traditions/28-mask-rt-28-poster.jpg"
+    alt: "Mask RT 028: máscara dorada de rostro alargado sobre fondo coral"
 ---
 
 ## Concepto
@@ -48,4 +48,4 @@ El cruce entre ritual, identidad cultural y tecnología abre una pregunta sobre 
 
 El proyecto vincula la serie con el surrealismo digital para transformar referencias de máscaras tradicionales. Las imágenes se crearon usando ComfyUI y modelos de difusión con capas de img2img; posteriormente se generaron animaciones con AnimateDiff (v1.5 / SDXL) en el mismo framework.
 
-La galería reúne seis animaciones de la colección, seleccionadas para mostrar variedad de color, silueta y tratamiento formal.
+La galería reúne seis animaciones de la colección —005, 010, 015, 020, 025 y 028—, seleccionadas para mostrar variedad de color, silueta y tratamiento formal. La imagen destacada corresponde a la animación 025.
