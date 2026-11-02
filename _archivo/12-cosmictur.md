@@ -6,7 +6,7 @@ category: "Algoritmos"
 categoryTag: "Algoritmos & procesos"
 year: "2023"
 client: "Independiente"
-image: "assets/archivo/12-cosmictur/01-cosmictur-07.webp"
+image: "assets/archivo/12-cosmictur/02-cosmictur-12.webp"
 tools: "Diffusion generativa, Stable Diffusion XL, ComfyUI, img2img"
 status: "Terminado"
 media:
