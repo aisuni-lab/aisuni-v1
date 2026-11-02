@@ -27,4 +27,4 @@ Entre el retrato y el paisaje imaginado, la pieza evita fijar una identidad esta
 
 La imagen original se creó en ComfyUI con modelos de difusión y técnicas de *img2img* en múltiples capas. Después se produjo la versión animada para representar el contexto en el que habita la figura, usando AnimateDiff (v1.5 / SDXL). La galería incluye únicamente la animación final.
 
-[Ver colección en Objkt](https://objkt.com/collections/KT1JKBPi7p5dQdGB1tC9upaX9GbQ7gPnH5kr) · [Ver animación final](https://objkt.com/tokens/KT1JKBPi7p5dQdGB1tC9upaX9GbQ7gPnH5kr/0)
+[Ver imagen original](https://www.arnolabs.io/artwork/elysium-embodied-radiance-1240) · [Ver animación final](https://objkt.com/tokens/KT1JKBPi7p5dQdGB1tC9upaX9GbQ7gPnH5kr/0) · [Ver colección en Objkt](https://objkt.com/collections/KT1JKBPi7p5dQdGB1tC9upaX9GbQ7gPnH5kr)
