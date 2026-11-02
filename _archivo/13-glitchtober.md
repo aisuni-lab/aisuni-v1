@@ -6,7 +6,7 @@ category: "Algoritmos"
 categoryTag: "Algoritmos & procesos"
 year: "2023"
 client: "Glitchtober"
-image: "assets/archivo/13-glitchtober/01-mutant-shriek-poster.jpg"
+image: "assets/archivo/13-glitchtober/02-chewing-brain-featured.jpg"
 tools: "Modelos de difusión, ComfyUI, Photomosh"
 status: "Terminado"
 media:
