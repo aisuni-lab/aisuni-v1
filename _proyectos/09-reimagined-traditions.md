@@ -47,5 +47,3 @@ El cruce entre ritual, identidad cultural y tecnología abre una pregunta sobre 
 ## Proceso
 
 El proyecto vincula la serie con el surrealismo digital para transformar referencias de máscaras tradicionales. Las imágenes se crearon usando ComfyUI y modelos de difusión con capas de img2img; posteriormente se generaron animaciones con AnimateDiff (v1.5 / SDXL) en el mismo framework.
-
-La galería reúne seis animaciones de la colección —005, 010, 015, 020, 025 y 028—, seleccionadas para mostrar variedad de color, silueta y tratamiento formal. La imagen destacada corresponde a la animación 025.
