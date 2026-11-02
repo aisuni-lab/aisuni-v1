@@ -14,38 +14,17 @@ media:
     src: "assets/proyectos/05-modeled-identities/01-cui-petal-07.jpg"
     alt: "Composición floral de tonos intensos y formas envolventes"
   - type: image
-    src: "assets/proyectos/05-modeled-identities/02-cui-petal-08.jpg"
-    alt: "Formas florales y cromáticas en una composición vertical"
-  - type: image
     src: "assets/proyectos/05-modeled-identities/03-cui-petals-01.png"
     alt: "Composición de pétalos y formas luminosas"
   - type: image
     src: "assets/proyectos/05-modeled-identities/04-cui-petal-02.jpg"
     alt: "Formas orgánicas y luz cromática en una escena oscura"
   - type: image
-    src: "assets/proyectos/05-modeled-identities/05-cui-petal-03.jpg"
-    alt: "Composición abstracta de pétalos y colores cálidos"
-  - type: image
-    src: "assets/proyectos/05-modeled-identities/06-cui-petal-04.jpg"
-    alt: "Formas florales iluminadas sobre un fondo oscuro"
-  - type: image
-    src: "assets/proyectos/05-modeled-identities/07-cui-petal-05.jpg"
-    alt: "Escena de formas orgánicas y luz multicolor"
-  - type: image
     src: "assets/proyectos/05-modeled-identities/08-astralis-05.jpg"
     alt: "Retrato frontal con una identidad visual compuesta por formas cromáticas"
   - type: image
     src: "assets/proyectos/05-modeled-identities/09-astralis-06.jpg"
     alt: "Retrato de perfil con elementos ornamentales y colores intensos"
-  - type: image
-    src: "assets/proyectos/05-modeled-identities/10-astralis-07.jpg"
-    alt: "Retrato de perfil con formas escultóricas multicolor"
-  - type: image
-    src: "assets/proyectos/05-modeled-identities/11-astralis-08.jpg"
-    alt: "Figura retratada con volúmenes ornamentales y tonos saturados"
-  - type: image
-    src: "assets/proyectos/05-modeled-identities/12-astralis-19.jpg"
-    alt: "Retrato de perfil rodeado de formas cromáticas"
   - type: image
     src: "assets/proyectos/05-modeled-identities/13-astralis-20.jpg"
     alt: "Retrato de perfil con patrones y elementos orgánicos"
