@@ -6,35 +6,35 @@ category: "Algoritmos"
 categoryTag: "Algoritmos & procesos"
 year: "2022"
 client: "Independiente"
-image: "assets/archivo/09-theus/01-theus-once.webp"
+image: "assets/archivo/09-theus/05-theus-once.webp"
 tools: "Diffusion generativa, Stable Diffusion"
 status: "Terminado"
 media:
   - type: image
-    src: "assets/archivo/09-theus/01-theus-once.webp"
-    alt: "Theus - once, collage de rostros y formas fragmentadas en magenta, rojo y turquesa"
+    src: "assets/archivo/09-theus/01-theus-katao.webp"
+    alt: "Katao, retrato frontal entre tonos turquesa y azules con una constelación de pequeñas formas brillantes"
   - type: image
-    src: "assets/archivo/09-theus/02-jaze.webp"
-    alt: "Jaze, perfil híbrido entre rostro y máquina sobre un fondo turquesa pixelado"
+    src: "assets/archivo/09-theus/02-theus-gadris.webp"
+    alt: "Gadris, dos rostros rodeados de formas densas y coloridas sobre un fondo claro"
   - type: image
-    src: "assets/archivo/09-theus/03-afra.webp"
-    alt: "Afra, perfil construido con rostros, ojos y formas orgánicas en tonos violeta y fucsia"
+    src: "assets/archivo/09-theus/03-theus-achus.webp"
+    alt: "Achus, rostro de perfil en una composición de tonos verde oliva, amarillos y magenta"
   - type: image
-    src: "assets/archivo/09-theus/04-gadris.webp"
-    alt: "Gadris, dos rostros rodeados por una densa composición de colores y formas brillantes"
+    src: "assets/archivo/09-theus/04-theus-kuriosus.webp"
+    alt: "Kuriosus, figura frontal surrealista de tonos violetas y azules con detalles luminosos"
   - type: image
-    src: "assets/archivo/09-theus/05-mdr-i.webp"
-    alt: "MDR - I, figura humanoide de cuerpo entero con formas mecánicas y colores intensos"
+    src: "assets/archivo/09-theus/05-theus-once.webp"
+    alt: "Theus - once, rostro fragmentado entre bloques de color fucsia, rojo, turquesa y azul"
 ---
 
 ## Concepto
 
-En **Theus**, la fuerza arraigada en la tierra toma forma en presencias híbridas: rostros, perfiles, figuras dobles y un cuerpo entero construido con elementos mecánicos y orgánicos. Pequeñas formas brillantes se agrupan como constelaciones de joyas alrededor de cada figura, mientras el color y la pixelación interrumpen sus contornos.
+En **Theus**, la fuerza arraigada en la tierra no aparece como paisaje, sino como presencia en una serie de rostros: figuras frontales y de perfil, algunas reunidas de a dos, construidas con capas de color y formas brillantes. La textura minuciosa convive con fragmentos pixelados, haciendo que cada imagen oscile entre una figura reconocible y un campo de señales.
 
-Las imágenes comparten un universo visual, pero cambian de escala, orientación y composición. Esa variación enlaza la búsqueda de sentido con el deseo de no repetir la misma escena: cada pieza parece surgir de un mismo impulso y, a la vez, abrir una transformación distinta.
+La constelación de colores —como pequeñas joyas— funciona como hilo común, aunque cambian la orientación, la densidad y la paleta de una pieza a otra. Así, la serie enlaza arraigo y transformación: las imágenes parecen pertenecer a un mismo flujo, pero ninguna vuelve a la misma escena.
 
 ## Proceso
 
-La colección reúne imágenes JPG de alta calidad generadas con modelos **Stable Diffusion**, combinando prompts mediante la técnica de texto a imagen. En cada imagen se realizó una postproducción ligera para añadir textura y detalle.
+La colección reúne imágenes JPG de alta calidad generadas con varios modelos **Stable Diffusion** combinados entre sí, mediante la técnica de imagen a imagen. El detalle se construyó a través de dos o tres generaciones por imagen y, en algunos casos, mediante alteraciones con pixelación externa y prompts. Cada pieza recibió una postproducción para añadir una textura y un detalle sutiles.
 
 [Ver colección en Objkt](https://objkt.com/collections/KT1PJhNJ2Ra4abURLVcb7ssQoqe3dEHx8s8a)
