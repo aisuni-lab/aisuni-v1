@@ -6,7 +6,7 @@ tags:
   - Sistemas generativos
   - Experimentación
   - Inteligencias visuales
-image: "assets/images/AnimateDiff_00008.png"
+image: "assets/images/aisuni-informacion.jpg"
 ---
 AISUNI es un espacio de investigación y experimentación visual. Explora el encuentro entre creación artística, sistemas generativos, código, materialidad y nuevas herramientas de producción de imágenes.
 
