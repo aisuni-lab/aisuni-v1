@@ -5,7 +5,7 @@ entries:
     name: "LAT21"
     description: "Exhibition and catalog"
     location: "Latam"
-    - year: "2025"
+  - year: "2025"
     name: "AISUNI"
     description: "AI-Critical Thinking 3, Panel discussion"
     location: "Ecuador"
