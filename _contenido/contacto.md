@@ -1,7 +1,7 @@
 ---
 id: contacto
 title: "Conversemos."
-email: "contacto@aisuni.art"
+email: "hola@aisuni.com"
 links:
   - label: Instagram
     url: "https://instagram.com/"
