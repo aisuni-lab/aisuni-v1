@@ -1,4 +1,4 @@
-/* AisuniRisographDots — adaptación del lienzo del HTML entregado por Esteban. */
+/* AisuniRisographDots — variante +30%, adaptada del HTML entregado por Esteban. */
 (()=>{'use strict';
 const host=document.querySelector('#info-animation');
 if(!host)return;
@@ -15,7 +15,7 @@ const styles=[
   {outer:'#EB3D1E'},{outer:'#C2D7E2'},{outer:'#F6CDD4'}
 ];
 const dots=[];
-const pointer={x:-1e3,y:-1e3,prevX:-1e3,prevY:-1e3,vx:0,vy:0,active:false,radius:95};
+const pointer={x:-1e3,y:-1e3,prevX:-1e3,prevY:-1e3,vx:0,vy:0,active:false,radius:115};
 const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)');
 let width=0,height=0,dpr=1,lastWidth=0,lastHeight=0,scale=1,frame=0;
 const bg=()=>getComputedStyle(host).getPropertyValue('--animation-bg').trim()||'#0A0C10';
@@ -30,13 +30,13 @@ function resize(){
     const fx=width/lastWidth,fy=height/lastHeight;
     dots.forEach(d=>{d.x*=fx;d.y*=fy;d.radius*=Math.min(fx,fy);d.mass=d.radius*d.radius});
   }else if(!dots.length){
-    const count=56,maxAttempts=1800;let attempts=0;
+    const count=42,maxAttempts=1800;let attempts=0;
     while(dots.length<count&&attempts++<maxAttempts){
-      const type=Math.random();let radius=(9+Math.random()*8)*scale;
-      if(type>.82)radius=(19+Math.random()*8)*scale;else if(type>.60)radius=(14+Math.random()*4)*scale;
+      const type=Math.random();let radius=(9+Math.random()*8)*1.3*scale;
+      if(type>.82)radius=(19+Math.random()*8)*1.3*scale;else if(type>.60)radius=(14+Math.random()*4)*1.3*scale;
       const pad=radius+5,cx=pad+Math.random()*Math.max(0,width-pad*2),cy=pad+Math.random()*Math.max(0,height-pad*2);
       if(dots.some(d=>Math.hypot(cx-d.x,cy-d.y)<radius+d.radius+Math.max(3,12*scale)))continue;
-      const angle=Math.random()*Math.PI*2,speed=(.15+Math.random()*.2)*scale;
+      const angle=Math.random()*Math.PI*2,speed=.15+Math.random()*.2;
       dots.push({x:cx,y:cy,vx:Math.cos(angle)*speed,vy:Math.sin(angle)*speed,radius,mass:radius*radius,style:styles[dots.length%styles.length]});
     }
   }
@@ -52,7 +52,7 @@ function paint(){
   });
 }
 function tick(){
-  const damping=.988,maxSpeed=3.2*scale,minSpeed=.18*scale,repel=1.8*scale;
+  const damping=.988,maxSpeed=3.2,minSpeed=.16,repel=2.0;
   dots.forEach(d=>{
     if(pointer.active){const dx=d.x-pointer.x,dy=d.y-pointer.y,dist=Math.hypot(dx,dy),radius=pointer.radius*scale;
       if(dist<radius&&dist>.1){const norm=1-dist/radius,push=norm*norm*repel;d.vx+=(dx/dist)*push+pointer.vx*.12*norm;d.vy+=(dy/dist)*push+pointer.vy*.12*norm}}
