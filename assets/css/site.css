@@ -142,3 +142,9 @@
 .hero p a:hover {
   color: var(--accent);
 }
+
+/* AisuniRisographDots: lienzo adaptable 3:2 en la sección Información. */
+.info-animation{--animation-bg:#0a0c10;position:relative;width:100%;aspect-ratio:3/2;overflow:hidden;background:var(--animation-bg);border:1px solid var(--rule);box-shadow:0 20px 48px -12px #0008;}
+.info-animation-canvas{display:block;width:100%;height:100%;}
+html[data-theme=light] .info-animation{--animation-bg:#f7f5ee;box-shadow:0 16px 36px -10px #0002;}
+@media(max-width:900px){.info-animation{box-shadow:0 16px 36px -10px #0004}}
