@@ -6,7 +6,6 @@ tags:
   - Sistemas generativos
   - Experimentación
   - Inteligencias visuales
-image: "assets/images/aisuni-informacion.jpg"
 ---
 **AISUNI** es un Media Lab virtual dedicado a la creación, investigación y experimentación artística con inteligencia artificial y tecnologías emergentes. Integra arte generativo, código, realidad virtual y nuevas herramientas digitales para explorar otras formas de creación y aprendizaje.
 
