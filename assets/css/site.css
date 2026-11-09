@@ -148,3 +148,9 @@
 .info-animation-canvas{display:block;width:100%;height:100%;}
 html[data-theme=light] .info-animation{--animation-bg:#f7f5ee;box-shadow:0 16px 36px -10px #0002;}
 @media(max-width:900px){.info-animation{box-shadow:0 16px 36px -10px #0004}}
+
+
+/* Piloto Archivo #15 Radiance: preview reducido a la mitad; el modal conserva su tamaño. */
+.archive-card-radiance img{height:120px}
+@media(max-width:900px){.archive-card-radiance img{height:82.5px}}
+@media(max-width:650px){.archive-card-radiance img{height:auto;aspect-ratio:2.6/1}}
