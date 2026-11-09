@@ -150,7 +150,13 @@ html[data-theme=light] .info-animation{--animation-bg:#f7f5ee;box-shadow:0 16px 
 @media(max-width:900px){.info-animation{box-shadow:0 16px 36px -10px #0004}}
 
 
-/* Piloto Archivo #15 Radiance: preview reducido a la mitad; el modal conserva su tamaño. */
-.archive-card-radiance img{height:120px}
-@media(max-width:900px){.archive-card-radiance img{height:82.5px}}
-@media(max-width:650px){.archive-card-radiance img{height:auto;aspect-ratio:2.6/1}}
+/* Archivo: previews a mitad de altura y grilla más compacta; sin cambios al modal. */
+.archive-grid{row-gap:12px}
+.archive-card img{height:120px}
+.archive-card-info{gap:12px;padding:8px 0 12px}
+@media(max-width:900px){.archive-card img{height:82.5px}}
+@media(max-width:650px){
+  .archive-grid{row-gap:10px}
+  .archive-card img{height:auto;aspect-ratio:2.6/1}
+  .archive-card-info{gap:8px;padding:7px 0 10px}
+}
